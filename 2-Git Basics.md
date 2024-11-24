@@ -105,6 +105,7 @@ Commit Object
 ```
 
 **track the objects**
+
 ![screen](./images/2.7.png)
 
 - **`git log`** shows the commit history.
@@ -113,6 +114,7 @@ Commit Object
 - The final step retrieves the file's content: `Hello git`.
 
 **Modifying file**
+
 ![screen](./images/2.8.png)
 
 now we have two commits and six objects 
@@ -203,6 +205,7 @@ note that if we use --hard option , All uncommitted changes in your working dire
 | ------------------ | ----------- | -------------- | ------------------------ | ------------------------ |
 | `git reset`        | ✅           | ✅              | ❌                        | ✅ (in working directory) |
 | `git reset --hard` | ✅           | ✅              | ✅                        | ❌ (loses all changes)    |
+
 ![screen](./images/2.18.png)
 
 ![screen](./images/2.19.png)

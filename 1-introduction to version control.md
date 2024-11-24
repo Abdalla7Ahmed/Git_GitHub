@@ -5,6 +5,7 @@ Version control is a system that records changes to a file or set of files over 
 A local version control system is a database situated on your local computer where every file change is stored as a patch. Each patch set contains only the changes made to the file since its last version. To view what the file looked like at any given moment, it’s necessary to aggregate all the relevant patches to the file up to that specific moment.
 
 ![screen](./images/1.1.png)
+
 **2-Centralized Version Control System:**
 A centralized version control system has a single server containing all file versions. This setup enables multiple clients to simultaneously access files on the server, pulling them to their local computer or pushing them onto the server from their local computer. This way, everyone typically knows what each team member is working on. Administrators maintain control over user permissions.
 ![screen](./images/1.2.png)
@@ -12,6 +13,7 @@ A centralized version control system has a single server containing all file ver
 **3-Distributed Version Control System:**
 In distributed version control systems, clients don’t merely check out the latest snapshot of files from the server; instead, they fully mirror the repository, encompassing its entire history. Consequently, each collaborator in a project possesses a local copy of the entire project, constituting their own local database with a complete history. In this model, if the server becomes unavailable or fails, any of the client repositories can transmit a copy of the project’s version to another client or restore it to the server when it becomes accessible. It suffices for one client to contain a correct copy, which can then be easily distributed further.
 ![screen](./images/1.3.png)
+
 **A Short History of Git**
 Git was created in 2005 by Linus Torvalds after a breakdown in the Linux community's use of BitKeeper, a proprietary Distributed Version Control System (DVCS). Git was designed with specific goals: speed, simplicity, non-linear development, distribution, and efficient handling of large projects like the Linux kernel.
 
@@ -31,6 +33,7 @@ Git has three main states for files: modified, staged, and committed. The workfl
 1. Modifying files in the working tree.
 2. Staging changes to prepare for the next commit.
 3. Committing the staged snapshot to the Git directory.
+
 ![screen](./images/1.4.png)
 
 ![screen](./images/1.5.png)
