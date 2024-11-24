@@ -118,6 +118,7 @@ Commit Object
 ![screen](./images/2.8.png)
 
 now we have two commits and six objects 
+
 ![screen](./images/2.9.png)
 
 Note that 
@@ -147,6 +148,7 @@ git diff --staged
 ```bash
 git diff <first commit>...<second commit>
 ```
+
 ![screen](./images/2.13.png)
 
 
@@ -183,6 +185,7 @@ git restore <file-name>
 ```bash
 git commit --amend -m "text"
 ```
+
 ![screen](./images/2.17.png)
 
 **5-Moves the HEAD pointer to the specified commit.**

@@ -17,6 +17,7 @@ we can use git pull to make both (fetch and merge)
 ```bash
 git pull <remote> <branch>
 ```
+
 ![screen](./images/4.2.png)
 
 **git push**
@@ -29,6 +30,7 @@ git switch local_branch
 At this point:
 - The branch `local_branch` exists **only in the local repository**.
 - The remote repository has no knowledge of this branch.
+
 ![screen](./images/4.3.png)
 
 When you try to push changes to the remote repository:
@@ -73,11 +75,14 @@ Now you have two branches in both the local and remote repositories:
 ![screen](./images/4.5.png)
 
 **master branch**
+
 ![screen](./images/4.6.png)
 
 **If someone updates `origin/master` remotely and you pull:**, Only the local `master` branch will receive those updates.
+
 ![screen](./images/4.7.png)
 
 the diff between the master and local_branch 
+
 ![screen](./images/4.8.png)
 

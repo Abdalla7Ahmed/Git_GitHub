@@ -8,10 +8,12 @@ A local version control system is a database situated on your local computer whe
 
 **2-Centralized Version Control System:**
 A centralized version control system has a single server containing all file versions. This setup enables multiple clients to simultaneously access files on the server, pulling them to their local computer or pushing them onto the server from their local computer. This way, everyone typically knows what each team member is working on. Administrators maintain control over user permissions.
+
 ![screen](./images/1.2.png)
 
 **3-Distributed Version Control System:**
 In distributed version control systems, clients don’t merely check out the latest snapshot of files from the server; instead, they fully mirror the repository, encompassing its entire history. Consequently, each collaborator in a project possesses a local copy of the entire project, constituting their own local database with a complete history. In this model, if the server becomes unavailable or fails, any of the client repositories can transmit a copy of the project’s version to another client or restore it to the server when it becomes accessible. It suffices for one client to contain a correct copy, which can then be easily distributed further.
+
 ![screen](./images/1.3.png)
 
 **A Short History of Git**
